@@ -18,7 +18,6 @@ nav {
     display: flex;
     position: fixed;
     background-color: rgba(11, 14, 182, 0.801);
-    justify-content: center;
     width: min-content;
     top: 3%;
     left: 50%;
