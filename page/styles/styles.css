@@ -1,0 +1,44 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f1f3;
+}
+
+main,
+body {
+    margin-top: 2rem;
+}
+
+header {
+    padding-top: .5rem;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: rgba(11, 14, 182, 0.801);
+    justify-content: center;
+    width: min-content;
+    top: 3%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 99px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: .3rem 2rem;
+}
+
+nav a:hover {
+    background-color: #e6dede;
+    color: #000;
+    border-radius: 99px;
+}
+
+h1 {
+    text-align: center;
+}
